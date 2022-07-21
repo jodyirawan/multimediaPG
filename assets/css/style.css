@@ -1,0 +1,68 @@
+:root {
+  /* Color */
+  --bg-color: #fff;
+  --text-color: #0f0c27;
+  --materi-color: rgb(78 175 148);
+  --button-color: #37977a;
+  --social-color: #fff;
+ /* Font-Size */
+  --big-font: 51.2px;
+  --medium-font: 28.8px;
+  --p-font: 16px;
+}
+section {
+  padding: 50px 10%;
+}
+
+ body.active {
+    --text-color: #fff;
+    --bg-color: #37977a;
+    --materi-color: #ffffff75;
+    --button-color: #fff;
+    --social-color: #37977a;
+  }
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+.footer{
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: bold;
+  background-color: #d3e2e2;
+  border-radius: 10px;
+  height: 50px;
+  line-height: 50px;
+}
+.footer p{
+  text-align: center;
+}
+.imgku{margin: auto;}
+.cursor{cursor: pointer;}
+small{
+  color: maroon;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 11px;
+}
+.navigasi .container-fluid{
+      background-color: #5f7564
+}
+.navbar-right li a{
+  color: #f3f6f7 !important;
+}
+.navbar-right li a:hover{
+  background-color: #2b4233 !important;
+}
+.dropdown .dropdown-menu{
+  background-color: #5f7564;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: #2b4233 !important;
+}
+th{
+  text-align: center;
+}
+.btntambah{
+  margin-bottom: 20px;
+}
